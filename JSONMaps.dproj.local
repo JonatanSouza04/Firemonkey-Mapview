@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/09/14 14:41:21.000.849,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/09/22 20:03:32.000.968,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/01/24 11:06:09.000.709,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/07/05 12:05:52.000.088,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/08/10 21:14:59.000.618,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/10/29 09:42:00.000.989,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/03/13 12:18:17.000.281,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/30 13:20:45.591,=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/30 13:20:58.899,C:\Users\Jonatan\Desktop\MapsJS\Unit1.fmx=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2016/04/30 13:20:58.899,C:\Users\Jonatan\Desktop\MapsJS\Unit1.pas=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/30 13:21:04.509,C:\Users\Jonatan\Desktop\MapsJS\MapsJS.dproj=C:\Users\Jonatan\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/04/30 13:21:27.645,=C:\Users\Jonatan\Desktop\MapsJS\U_TJSONMaps.pas</Transaction>
+    <Transaction>2016/04/30 15:11:05.159,C:\Users\Jonatan\Desktop\MapsJS\JSONMaps.dproj=C:\Users\Jonatan\Desktop\MapsJS\MapsJS.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="Android4.0"/>
+		<PIOS iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,235 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 683
+  ClientWidth = 464
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 464.000000000000000000
+    Size.Height = 683.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 8
+    TabPosition = None
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      object Rectangle1: TRectangle
+        Align = Top
+        Size.Width = 464.000000000000000000
+        Size.Height = 159.000000000000000000
+        Size.PlatformDefault = False
+        object Button1: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 95.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Onde estou'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button1Click
+        end
+        object Button2: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 107.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 95.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Dist'#226'ncia'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button2Click
+        end
+        object Button3: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 203.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 142.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Dist'#226'ncia por Lat.Lon'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button3Click
+        end
+        object Button4: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 35.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Descobrir Endere'#231'o'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button4Click
+        end
+        object Button10: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 96.000000000000000000
+          Size.Width = 110.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = 'Add Marca'#231#227'o'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button10Click
+        end
+        object Button11: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 118.000000000000000000
+          Position.Y = 96.000000000000000000
+          Size.Width = 110.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'Ocultar Marca'#231#245'es'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button11Click
+        end
+        object Button12: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 229.000000000000000000
+          Position.Y = 96.000000000000000000
+          Size.Width = 110.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = 'Mostrar Marca'#231#245'es'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button12Click
+        end
+        object Button5: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 139.000000000000000000
+          Position.Y = 35.000000000000000000
+          Size.Width = 110.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = 'Mapa Normal'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button5Click
+        end
+        object Button6: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 253.000000000000000000
+          Position.Y = 35.000000000000000000
+          Size.Width = 91.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          Text = 'Mapa Sat.'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button6Click
+        end
+        object Button7: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          Text = 'Mostrar Tr'#226'nsito'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button7Click
+        end
+        object Button8: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 131.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          Text = 'Mostrar Predios'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button8Click
+        end
+        object Button9: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 255.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 103.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 11
+          Text = 'Mostrar PI'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button9Click
+        end
+        object Button13: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 8.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 12
+          Text = 'Limpar Marca'#231#245'es'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button13Click
+        end
+        object Button14: TButton
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 164.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 169.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 13
+          Text = 'Excluir 1 Marca'#231#227'o'
+          TextSettings.Font.Family = 'Roboto'
+          OnClick = Button14Click
+        end
+      end
+      object Memo: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        StyledSettings = [Style, FontColor]
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 10.000000000000000000
+        Align = Top
+        Position.Y = 159.000000000000000000
+        Size.Width = 464.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 456.000000000000000000
+        Viewport.Height = 42.000000000000000000
+      end
+      object MapView1: TMapView
+        Align = Client
+        Size.Width = 464.000000000000000000
+        Size.Height = 474.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object LocationSensor: TLocationSensor
+    LocationChange = lctLarge
+    OnLocationChanged = LocationSensorLocationChanged
+    Left = 384
+    Top = 144
+  end
+end
